@@ -45,6 +45,9 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
 
   Route::group(['namespace' => 'Grades'], function() {
         Route::resource('Grades', 'GradeController');
+        Route::get('deleteGrades/{id?}', 'GradeController@destroy')->name('Grades.delete');
+
+
 //
   });
 

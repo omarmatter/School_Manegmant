@@ -4,7 +4,7 @@ Template:  Webmin - Bootstrap 4 & Angular 5 Admin Dashboard Template
 Author: potenzaglobalsolutions.com
 Design and Developed by: potenzaglobalsolutions.com
 
-NOTE: 
+NOTE:
 
 */
 
@@ -15,7 +15,7 @@ NOTE:
      swal('Any fool can use a computer')
   });
 
- 
+
   $('#sweetalert-02').click(function(e) {
   swal(
   'The Internet?',
@@ -89,7 +89,8 @@ NOTE:
       cancelButtonColor: '#d33',
       confirmButtonText: 'Yes, delete it!'
     }).then((result) => {
-      if (result.value) {
+        if (result.value) {
+          
         swal(
           'Deleted!',
           'Your file has been deleted.',
@@ -220,7 +221,7 @@ NOTE:
       }
     })
   });
-  
+
   $('#sweetalert-15').click(function(e) {
     swal.setDefaults({
     input: 'text',

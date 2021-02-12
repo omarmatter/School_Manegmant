@@ -2,8 +2,11 @@
 
 return [
     'title_page' => 'Grades',
+    'Home' => 'Home',
     'List_Grade' => 'List_Grade',
     'add_Grade' => 'Add Grade',
+    'exists' => 'This field already exists',
+
     'edit_Grade'=> 'edit_Grade',
     'delete_Grade'=> 'delete_Grade',
     'Warning_Grade'=> 'Are Sure Of The Deleting Process ?',

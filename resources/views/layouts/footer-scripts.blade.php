@@ -6,7 +6,7 @@
 <script type='text/javascript'>
 var plugin_path = '{{asset('assets/js')}}/';
 
-    
+
 </script>
 
 <!-- chart -->
@@ -30,3 +30,7 @@ var plugin_path = '{{asset('assets/js')}}/';
 <script src="{{ URL::asset('assets/js/lobilist.js') }}"></script>
 <!-- custom -->
 <script src="{{ URL::asset('assets/js/custom.js') }}"></script>
+
+
+
+    </script>
